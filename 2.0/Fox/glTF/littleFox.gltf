@@ -5,7 +5,7 @@
   },
   "buffers": [
     {
-      "uri": "Fox.bin"
+      "uri": "Fox.bin",
       "byteLength": 146668
     }
   ],
@@ -720,7 +720,7 @@
   ],
   "images": [
     {
-      "uri": "Texture.png"
+      "uri": "Texture.png",
       "mimeType": "image/png"
     }
   ]

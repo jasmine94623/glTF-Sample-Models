@@ -1,0 +1,241 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "gltfeditor.com"
+  },
+  "buffers": [
+    {
+      "uri": "Duck.bin",
+      "byteLength": 118344
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 57576,
+      "byteOffset": 0,
+      "target": 34962,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteLength": 19192,
+      "byteOffset": 57576,
+      "target": 34962,
+      "byteStride": 8
+    },
+    {
+      "buffer": 0,
+      "byteLength": 25272,
+      "byteOffset": 76768,
+      "target": 34963
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2399,
+      "max": [
+        0.9995989799499512,
+        0.999580979347229,
+        0.9984359741210938
+      ],
+      "min": [
+        -0.9990839958190918,
+        -1,
+        -0.9998319745063782
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 28788,
+      "componentType": 5126,
+      "count": 2399,
+      "max": [
+        96.17990112304688,
+        163.97000122070312,
+        53.92519760131836
+      ],
+      "min": [
+        -69.29850006103516,
+        9.929369926452637,
+        -61.32819747924805
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2399,
+      "max": [
+        0.9833459854125977,
+        0.9800369739532471
+      ],
+      "min": [
+        0.026409000158309937,
+        0.01996302604675293
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 12636,
+      "max": [
+        2398
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        3
+      ],
+      "name": "Duck"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0
+    },
+    {
+      "matrix": [
+        0.9998667240142822,
+        0.010139656253159046,
+        -0.012793028727173805,
+        0,
+        -0.009083129465579987,
+        0.9967453479766846,
+        0.08010116219520569,
+        0,
+        0.013563591055572033,
+        -0.07997428625822067,
+        0.996704638004303,
+        0,
+        -6.198341369628906,
+        36.54676055908203,
+        -355.4757080078125,
+        1
+      ]
+    },
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        -0.7289687395095825,
+        1.6370238498097933e-9,
+        -0.6845471262931824,
+        0,
+        -0.42520490288734436,
+        0.7836934328079224,
+        0.4527972936630249,
+        0,
+        0.5364750623703003,
+        0.6211478114128113,
+        -0.5712880492210388,
+        0,
+        400.1130065917969,
+        463.2640075683594,
+        -431.0780334472656,
+        1
+      ]
+    },
+    {
+      "children": [
+        0,
+        2
+      ],
+      "matrix": [
+        0.008660254068672657,
+        0,
+        -0.004999999888241291,
+        0,
+        0,
+        0.009999999776482582,
+        0,
+        0,
+        0.004999999888241291,
+        0,
+        0.008660254068672657,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 0,
+            "POSITION": 1,
+            "TEXCOORD_0": 2
+          },
+          "material": 0,
+          "mode": 4,
+          "indices": 3
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.8,
+          0.8,
+          0.8,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 1,
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        }
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9986,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "images": [
+    {
+      "uri": "base_1.png",
+      "mimeType": "image/png"
+    }
+  ]
+}

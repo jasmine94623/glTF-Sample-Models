@@ -1,0 +1,171 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "gltfeditor.com"
+  },
+  "buffers": [
+    {
+      "uri": "untitled.bin",
+      "byteLength": 20402
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 7568,
+      "byteOffset": 12834,
+      "target": 34962,
+      "byteStride": 16
+    },
+    {
+      "buffer": 0,
+      "byteLength": 11352,
+      "byteOffset": 1482,
+      "target": 34962,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1482,
+      "byteOffset": 0,
+      "target": 34963
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 473,
+      "max": [
+        0.9075471758842468,
+        0.05284162983298302,
+        0.0328759141266346,
+        1
+      ],
+      "min": [
+        0.006584956776350737,
+        0.006584956776350737,
+        0.006584956776350737,
+        1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 5676,
+      "componentType": 5126,
+      "count": 473,
+      "max": [
+        0.9998929500579834,
+        0.9728476405143738,
+        0.9728202223777771
+      ],
+      "min": [
+        -0.9998928904533386,
+        -0.5554479956626892,
+        -0.9728202223777771
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 473,
+      "max": [
+        0.18489843606948853,
+        1.51143479347229,
+        0.2373000532388687
+      ],
+      "min": [
+        -0.0978722795844078,
+        -0.7287704348564148,
+        -1.1235495805740356
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 741,
+      "max": [
+        472
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "matrix": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "mesh": 0
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "COLOR_0": 0,
+            "NORMAL": 1,
+            "POSITION": 2
+          },
+          "material": 0,
+          "mode": 4,
+          "indices": 3
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.6
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false
+    }
+  ]
+}
